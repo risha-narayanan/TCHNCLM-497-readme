@@ -1,23 +1,23 @@
-**CampusCloset**
+## **CampusCloset**
 
 [CampusCloset Banner](assets/banner.png)
 
 A student-to-student marketplace for sustainable school spirit wear!
 Trade, thrift, and pass down your campus merch - our way of building community while saving money and the planet!
 
-**Table of Contents**
-[Inspiration](#inspiration)
-[Features](#features)
-[Architecture](#architecture)
-[Installation](#installation)
-[Usage](#usage)
-[FAQ](#faq)
-[Challenges](#challenges)
-[Accomplishments](#accomplishments)
-[What We Learned](#what we learned)
-[Roadmap](#roadmap)
-[Contributing](#contributing)
-[Acknowledgements](#acknowledgements)
+## **Table of Contents**
+[Inspiration](#inspiration)  
+[Features](#features)  
+[Architecture](#architecture)  
+[Installation](#installation)  
+[Usage](#usage)  
+[FAQ](#faq)  
+[Challenges](#challenges)  
+[Accomplishments](#accomplishments)  
+[What We Learned](#what-we-learned)  
+[Roadmap](#roadmap)  
+[Contributing](#contributing)  
+[Acknowledgements](#acknowledgements)  
 
 ## **Inspiration**
 
@@ -50,17 +50,17 @@ Hosting: Google Cloud + Local testing
 Image Handling: Firebase Storage + Base64 fallback
 
 ## **Installation**
-# Clone repo
+#### Clone repo
 git clone https://github.com/your-username/campuscloset.git
 cd campuscloset
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# Start app
+#### Start app
 npx expo start
 
-# If network issues:
+#### If network issues:
 npx expo start --tunnel
 
 (Add GIF here showing installation/run process in Expo)
@@ -80,13 +80,13 @@ Upload a photo + details and instantly list your item.
 
 ## **FAQ**
 
-Q: Who can use CampusCloset?
+Q: Who can use CampusCloset?  
 A: Any student with a valid campus login.
 
-Q: Is this secure?
+Q: Is this secure?  
 A: Yes! Authentication + data storage are handled via Firebase.
 
-Q: Does it work cross-campus?
+Q: Does it work cross-campus?  
 A: Currently scoped to one university, but multi-campus support is on the roadmap.
 
 ## **Challenges**
@@ -97,13 +97,13 @@ Image Storage – Linking images to items in Firebase was harder than expected (
 
 ## **Accomplishments**
 
-✨ Fully functioning React Native app with Firebase integration
+1. Fully functioning React Native app with Firebase integration
 
-🎨 Polished frontend + cohesive color scheme
+2. Polished frontend + cohesive color scheme
 
-👥 Unique logins per user
+3. Unique logins per user
 
-🛒 Item listing + cart functionality live
+4. Item listing + cart functionality live
 
 ## **What We Learned**
 
@@ -127,11 +127,11 @@ Good UX requires iteration, testing, and design balance
 
 Contributions welcome!
 
-Fork the repo
+1. Fork the repo
 
-Create a feature branch
+2. Create a feature branch
 
-Submit a pull request
+3. Submit a pull request!
 
 ## **Acknowledgements**
 
