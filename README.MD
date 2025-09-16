@@ -6,6 +6,7 @@ A student-to-student marketplace for sustainable school spirit wear!
 Trade, thrift, and pass down your campus merch - our way of building community while saving money and the planet!
 
 ## **Table of Contents**
+
 [Inspiration](#inspiration)  
 [Features](#features)  
 [Architecture](#architecture)  
@@ -17,7 +18,7 @@ Trade, thrift, and pass down your campus merch - our way of building community w
 [What We Learned](#what-we-learned)  
 [Roadmap](#roadmap)  
 [Contributing](#contributing)  
-[Acknowledgements](#acknowledgements)  
+[Acknowledgements](#acknowledgements)
 
 ## **Inspiration**
 
@@ -50,31 +51,42 @@ Hosting: Google Cloud + Local testing
 Image Handling: Firebase Storage + Base64 fallback
 
 ## **Installation**
+
 #### Clone repo
+
 git clone https://github.com/your-username/campuscloset.git
 cd campuscloset
 
 #### Install dependencies
-npm install
+
+```console
+$ npm install
+```
 
 #### Start app
-npx expo start
+
+```console
+$ npx expo start
+```
 
 #### If network issues:
-npx expo start --tunnel
+
+```console
+$ npx expo start --tunnel
+```
 
 (Add GIF here showing installation/run process in Expo)
 
 ## **Usage**
 
 1. Browse Listings
-Filter by category, size, and style to find your next fit.
+   Filter by category, size, and style to find your next fit.
 
 2. Add to Cart
-Save items you love and check out later.
+   Save items you love and check out later.
 
 3. Sell Spirit Wear
-Upload a photo + details and instantly list your item.
+   Upload a photo + details and instantly list your item.
 
 (Screenshots/GIFs for each step here)
 
@@ -136,12 +148,12 @@ Contributions welcome!
 ## **Acknowledgements**
 
 Firebase
- for backend + auth
+for backend + auth
 
 Expo
- for React Native dev experience
+for React Native dev experience
 
 shields.io
- for badges
+for badges
 
-Hackathon Members: Rachel, Risha, Netra, and Jessica
+Hackathon Members: Rachel Lee, Risha Narayanan, Netra Jayagopal, and Ashley Yan
