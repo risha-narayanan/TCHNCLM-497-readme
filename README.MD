@@ -65,6 +65,12 @@ $ cd CampusCloset
 $ npm install
 ```
 
+If there are dependency issues, run
+
+```console
+$ npm install --legacy-peer-deps
+```
+
 #### Start app
 
 ```console
@@ -82,16 +88,16 @@ $ npx expo start --tunnel
 ## **Usage**
 
 1. Browse Listings:  
-    Filter by category, size, and style to find your next fit!
+    Filter by category, size, and style to find your next fit!  
    ![Browse](home_scroll.jpg)
    ![Specific Item](add_cart.jpg)
 
 2. Add to Cart:  
-    Save items you love and check out later!
+    Save items you love and check out later!  
    ![Cart](cart_screen.jpg)
 
 3. Sell Spirit Wear:  
-    Upload a photo + details and instantly list your item.
+    Upload a photo + details and instantly list your item.  
    ![Sell](sell.jpg)
 
 ## **FAQ**
