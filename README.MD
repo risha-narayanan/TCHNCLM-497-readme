@@ -36,17 +36,15 @@ CampusCloset makes it easy for students to trade and thrift campus gear — stre
 
 📸 Easy Uploads – Snap, upload, and share spirit wear with others
 
-(Add GIF here showing homepage scroll + cart functionality)
+![Content](C4-2.png)
 
 ## **Architecture**
 
-(Insert C4 diagram or system diagram here — e.g., ![Architecture](assets/architecture.png))
+![Architecture](C4-1.png)
 
 Frontend: React Native (Expo)
 
 Backend/Database: Firebase (auth, data, storage)
-
-Hosting: Google Cloud + Local testing
 
 Image Handling: Firebase Storage + Base64 fallback
 
@@ -102,17 +100,31 @@ Filter by category, size, and style to find your next fit!
 ![Browse](home_scroll.jpg)
 ![Specific Item](add_cart.jpg)
 
+![Context](C4-3-3.png)
+
 #### Add to Cart
 
 Save items you love and check out later!
 
 ![Cart](cart_screen.jpg)
 
+![Cart](C4-3-4.png)
+
 #### Sell Spirit Wear
 
 Upload a photo + details and instantly list your item.
 
 ![Sell](sell.jpg)
+
+![Arch](C4-3-2.png)
+
+#### User Profile
+
+New users can sign up anytime, and will later be able to manage their profile.
+
+![signup](signup.jpg)
+
+![Password](C4-3-1.png)
 
 ## **FAQ**
 
