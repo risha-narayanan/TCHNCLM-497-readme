@@ -65,7 +65,7 @@ $ cd CampusCloset
 $ npm install
 ```
 
-If there are dependency issues, run
+##### If dependency issues
 
 ```console
 $ npm install --legacy-peer-deps
@@ -77,10 +77,16 @@ $ npm install --legacy-peer-deps
 $ npx expo start
 ```
 
-#### If network issues:
+##### If network issues
 
 ```console
 $ npx expo start --tunnel
+```
+
+##### If dependency issues
+
+```console
+$ npx expo start -c
 ```
 
 (Add GIF here showing installation/run process in Expo)
