@@ -89,6 +89,8 @@ $ npx expo start --tunnel
 $ npx expo start -c
 ```
 
+### Installation Demo
+
 ![Installation](install.gif)
 
 ## **Usage**
