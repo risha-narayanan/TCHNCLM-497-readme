@@ -1,6 +1,6 @@
 ## **CampusCloset**
 
-[CampusCloset Banner](logo.png)
+![CampusCloset Banner](logo.png)
 
 A student-to-student marketplace for sustainable school spirit wear!
 Trade, thrift, and pass down your campus merch - our way of building community while saving money and the planet!
@@ -81,16 +81,18 @@ $ npx expo start --tunnel
 
 ## **Usage**
 
-1. Browse Listings
-   Filter by category, size, and style to find your next fit.
+1. Browse Listings:  
+    Filter by category, size, and style to find your next fit!
+   ![Browse](home_scroll.jpg)
+   ![Specific Item](add_cart.jpg)
 
-2. Add to Cart
-   Save items you love and check out later.
+2. Add to Cart:  
+    Save items you love and check out later!
+   ![Cart](cart_screen.jpg)
 
-3. Sell Spirit Wear
-   Upload a photo + details and instantly list your item.
-
-(Screenshots)
+3. Sell Spirit Wear:  
+    Upload a photo + details and instantly list your item.
+   ![Sell](sell.jpg)
 
 ## **FAQ**
 
