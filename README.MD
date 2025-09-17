@@ -1,6 +1,6 @@
 ## **CampusCloset**
 
-[CampusCloset Banner](assets/banner.png)
+[CampusCloset Banner](logo.png)
 
 A student-to-student marketplace for sustainable school spirit wear!
 Trade, thrift, and pass down your campus merch - our way of building community while saving money and the planet!
@@ -54,8 +54,10 @@ Image Handling: Firebase Storage + Base64 fallback
 
 #### Clone repo
 
-git clone https://github.com/your-username/campuscloset.git
-cd campuscloset
+```console
+$ git clone https://github.com/rachllee/mhacks.git
+$ cd CampusCloset
+```
 
 #### Install dependencies
 
@@ -88,34 +90,34 @@ $ npx expo start --tunnel
 3. Sell Spirit Wear
    Upload a photo + details and instantly list your item.
 
-(Screenshots/GIFs for each step here)
+(Screenshots)
 
 ## **FAQ**
 
 Q: Who can use CampusCloset?  
-A: Any student with a valid campus login.
+A: Any student with a valid campus login
 
 Q: Is this secure?  
 A: Yes! Authentication + data storage are handled via Firebase.
 
 Q: Does it work cross-campus?  
-A: Currently scoped to one university, but multi-campus support is on the roadmap.
+A: Currently scoped to one university, but multi-campus support is on the roadmap!
 
 ## **Challenges**
 
-Server Hosting – Struggled with local vs. cloud hosting.
+Server Hosting – Struggled with local vs. cloud hosting
 
-Image Storage – Linking images to items in Firebase was harder than expected (Base64 decoding workaround).
+Image Storage – Linking images to items in Firebase was harder than expected (Base64 decoding workaround)
 
 ## **Accomplishments**
 
-1. Fully functioning React Native app with Firebase integration
+⭐ Fully functioning React Native app with Firebase integration
 
-2. Polished frontend + cohesive color scheme
+⭐ Polished frontend + cohesive color scheme
 
-3. Unique logins per user
+⭐ Unique logins per user
 
-4. Item listing + cart functionality live
+⭐ Item listing + cart functionality live
 
 ## **What We Learned**
 
@@ -146,14 +148,5 @@ Contributions welcome!
 3. Submit a pull request!
 
 ## **Acknowledgements**
-
-Firebase
-for backend + auth
-
-Expo
-for React Native dev experience
-
-shields.io
-for badges
 
 Hackathon Members: Rachel Lee, Risha Narayanan, Netra Jayagopal, and Ashley Yan
