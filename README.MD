@@ -52,14 +52,14 @@ Image Handling: Firebase Storage + Base64 fallback
 
 ## **Installation**
 
-#### Clone repo
+### Clone repo
 
 ```console
 $ git clone https://github.com/rachllee/mhacks.git
 $ cd CampusCloset
 ```
 
-#### Install dependencies
+### Install dependencies
 
 ```console
 $ npm install
@@ -71,7 +71,7 @@ $ npm install
 $ npm install --legacy-peer-deps
 ```
 
-#### Start app
+### Start app
 
 ```console
 $ npx expo start
@@ -95,20 +95,20 @@ $ npx expo start -c
 
 #### Browse Listings
 
-    Filter by category, size, and style to find your next fit!
+Filter by category, size, and style to find your next fit!
 
 ![Browse](home_scroll.jpg)
 ![Specific Item](add_cart.jpg)
 
 #### Add to Cart
 
-    Save items you love and check out later!
+Save items you love and check out later!
 
 ![Cart](cart_screen.jpg)
 
 #### Sell Spirit Wear
 
-    Upload a photo + details and instantly list your item.
+Upload a photo + details and instantly list your item.
 
 ![Sell](sell.jpg)
 
