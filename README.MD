@@ -36,11 +36,11 @@ CampusCloset makes it easy for students to trade and thrift campus gear — stre
 
 📸 Easy Uploads – Snap, upload, and share spirit wear with others
 
-![Content](C4-2.png)
+![Content](C2.png)
 
 ## **Architecture**
 
-![Architecture](C4-1.png)
+![Architecture](C1.png)
 
 Frontend: React Native (Expo)
 
@@ -56,6 +56,10 @@ Image Handling: Firebase Storage + Base64 fallback
 $ git clone https://github.com/rachllee/mhacks.git
 $ cd CampusCloset
 ```
+
+#### Demo
+
+![file_system](file.gif)
 
 ### Install dependencies
 
@@ -87,6 +91,8 @@ $ npx expo start --tunnel
 $ npx expo start -c
 ```
 
+Wait for the QR code to show up, and enjoy the app!!
+
 ### Installation Demo
 
 ![Installation](install.gif)
@@ -100,7 +106,7 @@ Filter by category, size, and style to find your next fit!
 ![Browse](home_scroll.jpg)
 ![Specific Item](add_cart.jpg)
 
-![Context](C4-3-3.png)
+![Context](C3-3.png)
 
 #### Add to Cart
 
@@ -108,7 +114,7 @@ Save items you love and check out later!
 
 ![Cart](cart_screen.jpg)
 
-![Cart](C4-3-4.png)
+![Cart](C3-4.png)
 
 #### Sell Spirit Wear
 
@@ -116,7 +122,7 @@ Upload a photo + details and instantly list your item.
 
 ![Sell](sell.jpg)
 
-![Arch](C4-3-2.png)
+![Arch](C3-2.png)
 
 #### User Profile
 
@@ -124,7 +130,7 @@ New users can sign up anytime, and will later be able to manage their profile.
 
 ![signup](signup.jpg)
 
-![Password](C4-3-1.png)
+![Password](C3-1.png)
 
 ## **FAQ**
 
