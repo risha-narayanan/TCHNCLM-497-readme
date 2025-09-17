@@ -87,18 +87,24 @@ $ npx expo start --tunnel
 
 ## **Usage**
 
-1. Browse Listings:  
-    Filter by category, size, and style to find your next fit!  
-   ![Browse](home_scroll.jpg)
-   ![Specific Item](add_cart.jpg)
+#### Browse Listings
 
-2. Add to Cart:  
-    Save items you love and check out later!  
-   ![Cart](cart_screen.jpg)
+    Filter by category, size, and style to find your next fit!
 
-3. Sell Spirit Wear:  
-    Upload a photo + details and instantly list your item.  
-   ![Sell](sell.jpg)
+![Browse](home_scroll.jpg)
+![Specific Item](add_cart.jpg)
+
+#### Add to Cart
+
+    Save items you love and check out later!
+
+![Cart](cart_screen.jpg)
+
+#### Sell Spirit Wear
+
+    Upload a photo + details and instantly list your item.
+
+![Sell](sell.jpg)
 
 ## **FAQ**
 
