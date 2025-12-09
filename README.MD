@@ -40,10 +40,12 @@ CampusCloset is our answer.
 
 ## **Features**
 
-- 👕 **Student Marketplace** – Buy, sell, and trade gear with other students
-- 🛒 **Cart System** – Save your favorite items and check out when ready
-- 🧑 **User Profiles** – Manage listings, purchases, and account details
-- 📸 **Fast Listing Flow** – Upload photos, add details, and post instantly
+- 👕 **University-Exclusive Marketplace** – Trade, buy, and sell campus merchandise exclusively with fellow students, creating a safe and community-focused environment.
+- 🛒 **Smart Cart & Wishlist** – Save your favorite items, track your purchases, and check out efficiently.
+- 🧑 **Personalized Student Profiles** – Keep track of your listings, sales, and purchases while showcasing your campus involvement.
+- 📸 **Quick & Easy Listing** – Upload photos, add item details, and post instantly, making it effortless to share your merch.
+
+Most importantly! We give gently used campus gear a second life and reduce waste, supporting an eco-friendly student community.
 
 ![Content](C2.png)
 
