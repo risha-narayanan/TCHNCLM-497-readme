@@ -1,52 +1,66 @@
-## **CampusCloset**
+# **CampusCloset**
 
 ![CampusCloset Banner](logo.png)
 
-A student-to-student marketplace for sustainable school spirit wear!
-Trade, thrift, and pass down your campus merch - our way of building community while saving money and the planet!
+A student-to-student marketplace for sustainable school spirit wear.  
+Trade, thrift, and pass down your campus merch — building community while saving money _and_ the planet.
+
 
 ## **Table of Contents**
 
-[Inspiration](#inspiration)  
-[Features](#features)  
-[Architecture](#architecture)  
-[Installation](#installation)  
-[Usage](#usage)  
-[FAQ](#faq)  
-[Challenges](#challenges)  
-[Accomplishments](#accomplishments)  
-[What We Learned](#what-we-learned)  
-[Roadmap](#roadmap)  
-[Contributing](#contributing)  
-[Acknowledgements](#acknowledgements)
+- [Overview](#overview)
+- [Inspiration](#inspiration)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Challenges](#challenges)
+- [Accomplishments](#accomplishments)
+- [What We Learned](#what-we-learned)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+
+
+## **Overview**
+
+CampusCloset was created during MHacks as a way to make campus spirit wear more affordable, sustainable, and accessible. Students often buy clothing for tailgates, games, and events that they only wear a few times. By enabling easy trading and thrifting, CampusCloset reduces waste while strengthening school community.
+
+This README provides a high-level look at how the system works, its architecture, and how to get it running—along with the design decisions and challenges behind the build.
 
 ## **Inspiration**
 
-Students love repping their school spirit at games and tailgates. But college-specific clothing is often expensive, hard to find, and unsustainable, and most times after students graduate, they don't use their tailgating merch anymore.
+School spirit is a huge part of student culture, but _campus-specific clothing is expensive_. At the same time, students graduate and leave behind closets full of merch they’ll never wear again.
 
-CampusCloset makes it easy for students to trade and thrift campus gear — strengthening community and reducing waste!
+We wanted a seamless, mobile-first way for students to:
+
+- Give their gear a second life
+- Find affordable spirit wear
+- Build a culture of reusing rather than repurchasing
+
+CampusCloset is our answer.
+
 
 ## **Features**
 
-👕 Student Marketplace – Buy, sell, and trade campus gear
-
-🛒 Cart System – Add, save, and check out items you love
-
-🧑 User Profiles – Track your listings, purchases, and sales
-
-📸 Easy Uploads – Snap, upload, and share spirit wear with others
+- 👕 **Student Marketplace** – Buy, sell, and trade gear with other students
+- 🛒 **Cart System** – Save your favorite items and check out when ready
+- 🧑 **User Profiles** – Manage listings, purchases, and account details
+- 📸 **Fast Listing Flow** – Upload photos, add details, and post instantly
 
 ![Content](C2.png)
 
+
 ## **Architecture**
+
+A lightweight, mobile-first architecture optimized for speed during a hackathon build.
 
 ![Architecture](C1.png)
 
-Frontend: React Native (Expo)
+**Frontend:** React Native (Expo)  
+**Backend:** Firebase Authentication + Firestore  
+**Image Storage:** Firebase Storage (Base64 fallback for compatibility)
 
-Backend/Database: Firebase (auth, data, storage)
-
-Image Handling: Firebase Storage + Base64 fallback
 
 ## **Installation**
 
@@ -106,15 +120,11 @@ Filter by category, size, and style to find your next fit!
 ![Browse](home_scroll.jpg)
 ![Specific Item](add_cart.jpg)
 
-![Context](C3-3.png)
-
 #### Add to Cart
 
 Save items you love and check out later!
 
 ![Cart](cart_screen.jpg)
-
-![Cart](C3-4.png)
 
 #### Sell Spirit Wear
 
@@ -122,50 +132,29 @@ Upload a photo + details and instantly list your item.
 
 ![Sell](sell.jpg)
 
-![Arch](C3-2.png)
-
 #### User Profile
 
 New users can sign up anytime, and will later be able to manage their profile.
 
 ![signup](signup.jpg)
 
-![Password](C3-1.png)
-
-## **FAQ**
-
-Q: Who can use CampusCloset?  
-A: Any student with a valid campus login
-
-Q: Is this secure?  
-A: Yes! Authentication + data storage are handled via Firebase.
-
-Q: Does it work cross-campus?  
-A: Currently scoped to one university, but multi-campus support is on the roadmap!
-
 ## **Challenges**
 
-Server Hosting – Struggled with local vs. cloud hosting
+Hosting & Networking: Expo tunneling + Firebase integration required careful configuration.
 
-Image Storage – Linking images to items in Firebase was harder than expected (Base64 decoding workaround)
+Image Handling: Linking device images to Firebase storage took more work than expected; Base64 decoding became a stable solution.
 
-## **Accomplishments**
-
-⭐ Fully functioning React Native app with Firebase integration
-
-⭐ Polished frontend + cohesive color scheme
-
-⭐ Unique logins per user
-
-⭐ Item listing + cart functionality live
+Hackathon Time Constraints: Balancing design, stability, and feature completeness in under 36 hours.
 
 ## **What We Learned**
 
-Mobile development is harder than it looks (UI + API quirks)
+Mobile development requires thoughtful UI planning and extensive testing
 
-Cloud hosting and image handling can be deceptively tricky
+Image upload + storage workflows are deceptively tricky
 
-Good UX requires iteration, testing, and design balance
+Good UX comes from iteration, not just initial ideas
+
+Fast prototyping during a hackathon requires tight scoping and constant decision-making
 
 ## **Roadmap (What’s Next)**
 
@@ -190,3 +179,4 @@ Contributions welcome!
 ## **Acknowledgements**
 
 Hackathon Members: Rachel Lee, Risha Narayanan, Netra Jayagopal, and Ashley Yan
+Built at MHacks
