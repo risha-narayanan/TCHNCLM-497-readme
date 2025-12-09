@@ -5,7 +5,6 @@
 A student-to-student marketplace for sustainable school spirit wear.  
 Trade, thrift, and pass down your campus merch — building community while saving money _and_ the planet.
 
-
 ## **Table of Contents**
 
 - [Overview](#overview)
@@ -20,7 +19,6 @@ Trade, thrift, and pass down your campus merch — building community while savi
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
-
 
 ## **Overview**
 
@@ -40,7 +38,6 @@ We wanted a seamless, mobile-first way for students to:
 
 CampusCloset is our answer.
 
-
 ## **Features**
 
 - 👕 **Student Marketplace** – Buy, sell, and trade gear with other students
@@ -49,7 +46,6 @@ CampusCloset is our answer.
 - 📸 **Fast Listing Flow** – Upload photos, add details, and post instantly
 
 ![Content](C2.png)
-
 
 ## **Architecture**
 
@@ -60,7 +56,6 @@ A lightweight, mobile-first architecture optimized for speed during a hackathon 
 **Frontend:** React Native (Expo)  
 **Backend:** Firebase Authentication + Firestore  
 **Image Storage:** Firebase Storage (Base64 fallback for compatibility)
-
 
 ## **Installation**
 
@@ -179,4 +174,5 @@ Contributions welcome!
 ## **Acknowledgements**
 
 Hackathon Members: Rachel Lee, Risha Narayanan, Netra Jayagopal, and Ashley Yan
+
 Built at MHacks
